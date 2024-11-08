@@ -49,6 +49,7 @@ def verifica_resposta(inserida, correta):
         resposta = True
     else:
         resposta = False
+        print(f'A palavra correta era "{correta}"')
     return resposta
 
 
@@ -120,6 +121,6 @@ while continua_jogo:
 
 # Fora do loop quando o jogador perde:
 if nivel <= 10:
-    print(f'Você perdeu! \nVocê conseguiu chegar até o nível {nivel}')
+    print(f'Você perdeu! \nVocê conseguiu chegar até o nível {nivel}\nO JOGO')
 else:
     print(f'CHEGA DE PATOS NA LAGOA \nP A RA B É N S! Você ganhou mas... \nperdeu seu tempo \n e O JOGO')
